@@ -91,8 +91,4 @@ with tab3:
 with tab4:
     st.write("Event details")
  
-        st.warning("Please be honest and constructive in your feedback. We appreciate your input!")
-        st.error("If you have any issues or concerns, please contact the event organizers directly.")
-        if st.button("Show Exeption"):
-            st.ballons()
-            st.divider()
+        
