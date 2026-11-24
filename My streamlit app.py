@@ -20,7 +20,7 @@ st.divider()
 st.header("Event Registration")
 
 name = st.text_input("Enter your name:")
-st.write(f"Hello, {name}!")
+st.write("Hello, {name}!")
 message = st.text_area("Enter your message:")
 age = st.number_input("Enter your age:", min_value=1, max_value=60, value=18)
 gender = st.radio("Select your gender:", ("Male", "Female", "Other"))
